@@ -7,8 +7,7 @@ trigger:
 - '*'
 
 pool:
-  name: AKS_Agent_Pool
-#  vmImage: 'ubuntu-18.04'
+  vmImage: 'ubuntu-18.04'
   demands:
     - npm
 
