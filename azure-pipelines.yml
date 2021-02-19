@@ -7,7 +7,9 @@ trigger:
 - '*'
 
 pool:
-  name: 'AKS_Agent_Pool'
+  vmImage: 'ubuntu-18.04'
+  demands:
+    - npm
 
 variables:
   buildConfiguration: 'Release'
