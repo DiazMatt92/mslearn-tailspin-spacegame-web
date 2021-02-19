@@ -8,8 +8,6 @@ trigger:
 
 pool:
   name: 'AKS_Agent_Pool'
-  demands:
-    - npm
 
 variables:
   buildConfiguration: 'Release'
